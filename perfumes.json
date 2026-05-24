@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "brand": "Tom Ford",
+    "name": "Oud Wood",
+    "volume": "100ml",
+    "gender": "Unisex",
+    "image": "BRANDED PERFUME_page-0001.jpg",
+    "notes": "Rare Oud, Sandalwood, Cardamom, Sichuan Pepper, Vetiver, Amber",
+    "description": "A pioneering masterpiece blending rich, smoky agarwood with exotic spices. Highly sophisticated, clean, and commanding."
+  },
+  {
+    "id": 2,
+    "brand": "Tom Ford",
+    "name": "Vanille Fatale",
+    "volume": "100ml",
+    "gender": "Unisex",
+    "image": "BRANDED PERFUME_page-0002.jpg",
+    "notes": "Madagascar Vanilla, Roasted Coffee, Frangipani, Barley, Suede",
+    "description": "An intense, smoky take on sweet vanilla laced with bitter coffee notes. Deeply intoxicating, dark, and provocative."
+  },
+  {
+    "id": 3,
+    "brand": "Tom Ford",
+    "name": "Fucking Fabulous",
+    "volume": "100ml",
+    "gender": "Unisex",
+    "image": "BRANDED PERFUME_page-0003.jpg",
+    "notes": "Bitter Almond, Leather, Clary Sage, Orris Root, Tonka Bean",
+    "description": "An explicit, bold leather composition with a creamy almond heart. Highly exclusive, dry, and starkly memorable."
+  },
+  {
+    "id": 4,
+    "brand": "Tom Ford",
+    "name": "Fucking Fabulous (Alternate Edition)",
+    "volume": "100ml",
+    "gender": "Unisex",
+    "image": "BRANDED PERFUME_page-0004.jpg",
+    "notes": "Bitter Almond, Leather, Cashmeran, Lavender, Tonka Bean",
+    "description": "A premium, texturized leather statement highlighting heavy sage elements. Leaving an imposing, luxury minimalist trail."
+  },
+  {
+    "id": 5,
+    "brand": "Tom Ford",
+    "name": "Neroli Portofino",
+    "volume": "100ml",
+    "gender": "Unisex",
+    "image": "BRANDED PERFUME_page-0005.jpg",
+    "notes": "Tunisian Neroli, Italian Bergamot, Sicilian Lemon, Amber",
+    "description": "A crisp, vibrant interpretation of the Italian Riviera. Bursting with fresh citrus, clean florals, and amber undertones."
+  },
+  {
+    "id": 6,
+    "brand": "Tom Ford",
+    "name": "Oud Wood (Eau de Parfum)",
+    "volume": "100ml",
+    "gender": "Unisex",
+    "image": "BRANDED PERFUME_page-0006.jpg",
+    "notes": "Agarwood, Rosewood, Cardamom, Tonka Bean, Sandalwood",
+    "description": "A classic luxury presentation of precious oriental wood notes. Warm, comforting, and perfectly balanced with amber resins."
+  },
+  {
+    "id": 7,
+    "brand": "Tom Ford",
+    "name": "Rose Prick",
+    "volume": "100ml",
+    "gender": "Unisex",
+    "image": "BRANDED PERFUME_page-0007.jpg",
+    "notes": "May Rose, Bulgarian Rose, Turkish Rose, Patchouli, Sichuan Pepper",
+    "description": "A wild bouquet of rare roses built on sharp, biting spices. Grounded by a rich, earthy patchouli base."
+  },
+  {
+    "id": 8,
+    "brand": "Tom Ford",
+    "name": "Bitter Peach",
+    "volume": "100ml",
+    "gender": "Unisex",
+    "image": "BRANDED PERFUME_page-0008.jpg",
+    "notes": "Pêche de Vigne, Blood Orange, Patchouli, Davana, Cognac",
+    "description": "An explicit, sweet-turned-dark peach drenched in fine liquor. Intensely rich, fruity, and highly addictive."
+  },
+  {
+    "id": 9,
+    "brand": "Tom Ford",
+    "name": "Tubéreuse Nue",
+    "volume": "50ml",
+    "gender": "Unisex",
+    "image": "BRANDED PERFUME_page-0009.jpg",
+    "notes": "Tuberose, Lily, Suede, Soft Musk, Timut Pepper, Benzoin",
+    "description": "A deep, carnal white floral blended with supple leather tones. Softly sensual, striking, and deeply textured."
+  },
+  {
+    "id": 10,
+    "brand": "Tom Ford",
+    "name": "Rose Prick (Travel Size)",
+    "volume": "50ml",
+    "gender": "Unisex",
+    "image": "BRANDED PERFUME_page-0010.jpg",
+    "notes": "Bulgarian Rose, Turkish Rose, Sichuan Pepper, Turmeric, Tonka Bean",
+    "description": "The iconic, dangerously sharp rose scent in an artisanal compact format. Warm, blooming, and richly spicy."
+  },
+  {
+    "id": 11,
+    "brand": "Tom Ford",
+    "name": "Lost Cherry",
+    "volume": "100ml",
+    "gender": "Unisex",
+    "image": "BRANDED PERFUME_page-0011.jpg",
+    "notes": "Black Cherry, Bitter Almond, Cherry Liqueur, Turkish Rose, Peru Balsam",
+    "description": "A voluptuous journey into a full-bodied dark fruit accord. Dripping with sweet syrup, fine liquor, and exotic wood warmth."
+  },
+  {
+    "id": 12,
+    "brand": "Tom Ford",
+    "name": "Neroli Portofino (Eau de Parfum)",
+    "volume": "100ml",
+    "gender": "Unisex",
+    "image": "BRANDED PERFUME_page-0012.jpg",
+    "notes": "Neroli, Orange Blossom, Jasmine, Lavender, Angelica Root",
+    "description": "A luminous, clean coastal fragrance mimicking fresh ocean breezes. Highly refreshing, effervescent, and bright."
+  },
+  {
+    "id": 13,
+    "brand": "Tom Ford",
+    "name": "Tobacco Vanille",
+    "volume": "100ml",
+    "gender": "Unisex",
+    "image": "BRANDED PERFUME_page-0013.jpg",
+    "notes": "Tobacco Leaf, Ginger, Cocoa, Vanilla, Sweet Wood Sap",
+    "description": "An opulent, classic English club scent reimagined. Heavy tobacco leaf layered with creamy vanilla and spiced dried fruits."
+  },
+  {
+    "id": 14,
+    "brand": "Tom Ford",
+    "name": "Soleil Blanc",
+    "volume": "100ml",
+    "gender": "Unisex",
+    "image": "BRANDED PERFUME_page-0014.jpg",
+    "notes": "Coco de Mer, Ylang Ylang, Pistachio, Cardamom, Amber",
+    "description": "A sultry, sun-drenched private island escape. Creamy, warm, and redolent of solar florals and amber warmth."
+  },
+  {
+    "id": 15,
+    "brand": "Tom Ford",
+    "name": "Costa Azzurra",
+    "volume": "100ml",
+    "gender": "Unisex",
+    "image": "BRANDED PERFUME_page-0015.jpg",
+    "notes": "Driftwood, Sea Salt, Seaweed, Oud, Celery Seeds, Myrtle",
+    "description": "A coastal escape blending refreshing salty sea air with rich, dark woody pine forests. Crisp, marine, and complex."
+  },
+  {
+    "id": 16,
+    "brand": "Tom Ford",
+    "name": "Cherry Smoke",
+    "volume": "100ml",
+    "gender": "Unisex",
+    "image": "BRANDED PERFUME_page-0016.jpg",
+    "notes": "Dark Cherry, Saffron, Osmantus, Smoked Leather, Cypriol",
+    "description": "A hedonistic scent capturing a dark, fiery fruit signature. Heavy with rich leather and glowing wood smoke tones."
+  },
+  {
+    "id": 17,
+    "brand": "Tom Ford",
+    "name": "Café Rose",
+    "volume": "100ml",
+    "gender": "Unisex",
+    "image": "BRANDED PERFUME_page-0017.jpg",
+    "notes": "Turkish Rose, Dark Coffee, Bulgarian Rose, Patchouli, Cardamom",
+    "description": "An elegant dance of dark sophistication. Marries a voluptuous, rich rose bouquet with a sharp, bitter espresso kick."
+  },
+  {
+    "id": 18,
+    "brand": "Tom Ford",
+    "name": "Black Orchid (Eau de Toilette)",
+    "volume": "100ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0018.jpg",
+    "notes": "Black Orchid, Black Truffle, Ylang Ylang, Patchouli, Blackcurrant",
+    "description": "A lighter, sharper variation of the iconic oriental floral. Intensely mysterious, dark, and highly hypnotic."
+  },
+  {
+    "id": 19,
+    "brand": "Tom Ford",
+    "name": "Grey Vetiver",
+    "volume": "100ml",
+    "gender": "Men",
+    "image": "BRANDED PERFUME_page-0019.jpg",
+    "notes": "Vetiver, Grapefruit, Orange Blossom, Sage, Nutmeg, Pimento",
+    "description": "The ultimate signature scent of refined masculinity. Clean, cool vetiver contrasted with bright citrus and warm spices."
+  },
+  {
+    "id": 20,
+    "brand": "Tom Ford",
+    "name": "Black Orchid (Parfum)",
+    "volume": "100ml",
+    "gender": "Unisex",
+    "image": "BRANDED PERFUME_page-0020.jpg",
+    "notes": "Black Truffle, Ylang Ylang, Rum, Black Orchid, Patchouli",
+    "description": "The most intense, amplified presentation of Black Orchid. Drenched in gold rum, rich patchouli, and heavy florals."
+  },
+  {
+    "id": 21,
+    "brand": "Tom Ford",
+    "name": "Oud Minérale",
+    "volume": "100ml",
+    "gender": "Unisex",
+    "image": "BRANDED PERFUME_page-0021.jpg",
+    "notes": "Marine Notes, Oud, Sea Salt, Pink Pepper, Styrax, Seaweed",
+    "description": "An unusual, striking clash of desert warmth and ocean cold. Briny mineral notes meeting precious, heavy oud."
+  },
+  {
+    "id": 22,
+    "brand": "Tom Ford",
+    "name": "Black Orchid (Eau de Parfum)",
+    "volume": "100ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0022.jpg",
+    "notes": "Black Orchid, Truffle, Patchouli, Dark Chocolate, Incense",
+    "description": "A timelessly dark, dramatic masterpiece. Luxurious dark chocolate and smoky incense framing an elusive orchid flower."
+  },
+  {
+    "id": 23,
+    "brand": "Tom Ford",
+    "name": "Ombré Leather",
+    "volume": "100ml",
+    "gender": "Unisex",
+    "image": "BRANDED PERFUME_page-0023.jpg",
+    "notes": "Cardamom, Jasmine Sambac, Black Leather, Patchouli, White Moss",
+    "description": "A sprawling, texturized open-space leather scent. Rugged, bold, and highly alluring with smooth floral highlights."
+  },
+  {
+    "id": 24,
+    "brand": "Creed",
+    "name": "Silver Mountain Water",
+    "volume": "100ml",
+    "gender": "Unisex",
+    "image": "BRANDED PERFUME_page-0024.jpg",
+    "notes": "Blackcurrant, Green Tea, Bergamot, Musk, Galbanum",
+    "description": "An icy, refreshing blast reminiscent of Swiss alpine streams. Crisp, clean, and carrying a distinct green tea signature."
+  },
+  {
+    "id": 25,
+    "brand": "Creed",
+    "name": "Green Irish Tweed",
+    "volume": "100ml",
+    "gender": "Men",
+    "image": "BRANDED PERFUME_page-0025.jpg",
+    "notes": "Lemon Verbena, Iris, Violet Leaf, Ambergris, Mysore Sandalwood",
+    "description": "A quintessential gentlemen's fougère. Smells like a fresh morning walk through dew-soaked, emerald Irish estates."
+  },
+  {
+    "id": 26,
+    "brand": "Creed",
+    "name": "Bois du Portugal",
+    "volume": "100ml",
+    "gender": "Men",
+    "image": "BRANDED PERFUME_page-0026.jpg",
+    "notes": "Bergamot, Lavender, Cedarwood, Mysore Sandalwood, Vetiver",
+    "description": "A rich, classic, warm woody masterpiece. Deeply masculine, highly mature, and commanding instant respect."
+  },
+  {
+    "id": 27,
+    "brand": "Creed",
+    "name": "Royal Oud",
+    "volume": "100ml",
+    "gender": "Unisex",
+    "image": "BRANDED PERFUME_page-0027.jpg",
+    "notes": "Pink Pepper, Cedar, Galbanum, Angelica Root, Regal Oud",
+    "description": "A magnificent, silky woody architecture. Focuses on smooth, bright spices and dry, majestic palace wood notes."
+  },
+  {
+    "id": 28,
+    "brand": "Creed",
+    "name": "Himalaya",
+    "volume": "100ml",
+    "gender": "Men",
+    "image": "BRANDED PERFUME_page-0028.jpg",
+    "notes": "Calabrian Bergamot, Sandalwood, Cedar, Musk, Ambergris",
+    "description": "A clean, metallic freshness mimicking snow-covered mountain peaks. Grounded by a rich, warm masculine sandalwood heart."
+  },
+  {
+    "id": 29,
+    "brand": "Creed",
+    "name": "Aventus Cologne",
+    "volume": "100ml",
+    "gender": "Men",
+    "image": "BRANDED PERFUME_page-0029.jpg",
+    "notes": "Mandarin, Ginger, Pink Pepper, Vetiver, Birch, Musk",
+    "description": "A vitalizing, fresh, and expressive twist on the classic Aventus identity. Light, urban, and buzzing with energy."
+  },
+  {
+    "id": 30,
+    "brand": "Creed",
+    "name": "Virgin Island Water",
+    "volume": "100ml",
+    "gender": "Unisex",
+    "image": "BRANDED PERFUME_page-0030.jpg",
+    "notes": "Coconut, Lime, White Rum, Sugar Cane, Mandarin, Jasmine",
+    "description": "A premium tropical paradise in a bottle. Crisp Caribbean lime washed over smooth, creamy coconut milk and heavy rum."
+  },
+  {
+    "id": 31,
+    "brand": "Creed",
+    "name": "Aventus",
+    "volume": "100ml",
+    "gender": "Men",
+    "image": "BRANDED PERFUME_page-0031.jpg",
+    "notes": "Pineapple, Birch Wood, Bergamot, Blackcurrant, Ambergris",
+    "description": "The legendary powerhouse of luxury perfumery. Opens with a sweet, smoky blast of fresh pineapple and rich, charred birch."
+  },
+  {
+    "id": 32,
+    "brand": "Creed",
+    "name": "Viking Cologne",
+    "volume": "100ml",
+    "gender": "Men",
+    "image": "BRANDED PERFUME_page-0032.jpg",
+    "notes": "Bergamot, Lemon, Pink Pepper, Lavender, Sandalwood, Vetiver",
+    "description": "An aromatic, refreshing tonic capturing a cool maritime awakening. Highly clean, bracing, and intensely energetic."
+  },
+  {
+    "id": 33,
+    "brand": "Yves Saint Laurent",
+    "name": "Y (Eau de Parfum)",
+    "volume": "100ml",
+    "gender": "Men",
+    "image": "BRANDED PERFUME_page-0033.jpg",
+    "notes": "Apple, Ginger, Sage, Juniper Berries, Amberwood, Tonka Bean",
+    "description": "A modern, blue-style crowd-pleaser. Highly crisp, modern, and projecting an unmatched fresh laundry and sharp spice trail."
+  },
+  {
+    "id": 34,
+    "brand": "Yves Saint Laurent",
+    "name": "Y L'Elixir",
+    "volume": "100ml",
+    "gender": "Men",
+    "image": "BRANDED PERFUME_page-0034.jpg",
+    "notes": "Diva Lavender, Geranium, Mysterious Incense, Natural Oud Wood",
+    "description": "The highest concentration of the Y collection. An enigmatic, dark blue opus adding dark, smoky incense and natural leather oud."
+  },
+  {
+    "id": 35,
+    "brand": "Yves Saint Laurent",
+    "name": "Y Le Parfum",
+    "volume": "100ml",
+    "gender": "Men",
+    "image": "BRANDED PERFUME_page-0035.jpg",
+    "notes": "Apple, Aldehydes, Sage, Lavender, Cedarwood, Patchouli",
+    "description": "A dark, smooth, and deeply velvety execution of the signature blue accord. Highly professional, rich, and clean."
+  },
+  {
+    "id": 36,
+    "brand": "Yves Saint Laurent",
+    "name": "Y (Eau de Parfum Intense)",
+    "volume": "100ml",
+    "gender": "Men",
+    "image": "BRANDED PERFUME_page-0036.jpg",
+    "notes": "Blue Juniper Berries, Diva Lavender, Patchouli, Cedarwood",
+    "description": "An amplified, spicy variation shifting focus toward clean aromatic herbs and long-lasting, deep woody earthy tones."
+  },
+  {
+    "id": 37,
+    "brand": "Yves Saint Laurent",
+    "name": "Libre (Eau de Parfum Intense)",
+    "volume": "90ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0037.jpg",
+    "notes": "French Lavender, Moroccan Orange Blossom, Orchid, Madagascar Vanilla",
+    "description": "A sultry, deep, and blazing floral profile. Amplified with a sweet, heavy vanilla intensity and creamy orchids."
+  },
+  {
+    "id": 38,
+    "brand": "Yves Saint Laurent",
+    "name": "Libre (Eau de Parfum)",
+    "volume": "90ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0038.jpg",
+    "notes": "Diva Lavender, Orange Blossom, Mandarin Orange, Ambergris",
+    "description": "The definitive modern signature of female freedom. Blends clean, traditionally masculine lavender with an elegant floral heart."
+  },
+  {
+    "id": 39,
+    "brand": "Yves Saint Laurent",
+    "name": "Libre (Dress Me Wild Collector Edition)",
+    "volume": "90ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0039.jpg",
+    "notes": "Lavender, Orange Blossom, Neroli, Vanilla, Tonka Bean",
+    "description": "The highly sought-after, limited edition cheetah print flacon. Houses an extra-sensual, warm, and hyper-luxurious lavender experience."
+  },
+  {
+    "id": 40,
+    "brand": "Yves Saint Laurent",
+    "name": "Libre Le Parfum",
+    "volume": "90ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0040.jpg",
+    "notes": "Saffron, Ginger, Lavender, Orange Blossom, Honey, Bourbon Vanilla",
+    "description": "The richest, warmest iteration of Libre. Infused with a fiery golden saffron spice, ginger, and a thick luxury honey finish."
+  },
+  {
+    "id": 41,
+    "brand": "Yves Saint Laurent",
+    "name": "Mon Paris (Eau de Parfum)",
+    "volume": "90ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0041.jpg",
+    "notes": "Strawberry, Raspberry, Pear, Datura Flower, Patchouli, White Musk",
+    "description": "A passionate, dizzying journey to Paris. A luscious, sweet red berry explosion balanced cleanly by transparent musk."
+  },
+  {
+    "id": 42,
+    "brand": "Yves Saint Laurent",
+    "name": "Black Opium (Eau de Parfum)",
+    "volume": "90ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0042.jpg",
+    "notes": "Black Coffee, Vanilla, White Florals, Jasmine, Pink Pepper",
+    "description": "An incredibly popular, highly seductive night fragrance. Powered by a dark shot of rich adrenaline-fueled espresso and sweet vanilla."
+  },
+  {
+    "id": 43,
+    "brand": "Yves Saint Laurent",
+    "name": "MYSLF",
+    "volume": "100ml",
+    "gender": "Men",
+    "image": "BRANDED PERFUME_page-0043.jpg",
+    "notes": "Calabrian Bergamot, Tunisian Orange Blossom, Ambrofix, Patchouli",
+    "description": "A sleek, clean statement of modern masculinity. Blends a unique, radiant floral heart with clean woods and modern ambers."
+  },
+  {
+    "id": 44,
+    "brand": "Giorgio Armani",
+    "name": "Acqua Di Giò (Eau de Toilette)",
+    "volume": "100ml",
+    "gender": "Men",
+    "image": "BRANDED PERFUME_page-0044.jpg",
+    "notes": "Marine Notes, Bergamot, Jasmine, Persimmon, Cedarwood, Patchouli",
+    "description": "The undisputed King of fresh aquatic fragrances. Captures pure marine wind, bright Mediterranean sun, and clean coastal woods."
+  },
+  {
+    "id": 45,
+    "brand": "Yves Saint Laurent",
+    "name": "Black Opium Over Red",
+    "volume": "90ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0045.jpg",
+    "notes": "Black Cherry, Black Coffee, Jasmine, Madagascar Vanilla, Patchouli",
+    "description": "A brilliant, juicy update to the signature coffee base, dripping with dark, dark-red cherry syrup. Deeply seductive."
+  },
+  {
+    "id": 46,
+    "brand": "Yves Saint Laurent",
+    "name": "Black Opium Floral Shock",
+    "volume": "90ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0046.jpg",
+    "notes": "Iced Coffee, Freesia, Gardenia, Solar Notes, White Musk",
+    "description": "A biting, refreshing shock of energy. Swaps out heavy sweetness for a crisp, icy-cold coffee and glowing white florals."
+  },
+  {
+    "id": 47,
+    "brand": "Yves Saint Laurent",
+    "name": "La Nuit de L'Homme L'Intense",
+    "volume": "100ml",
+    "gender": "Men",
+    "image": "BRANDED PERFUME_page-0047.jpg",
+    "notes": "Iris Concrete, Violet, Vanilla, Tonka Bean, Sage, Patchouli",
+    "description": "A highly sensual, powder-soft evening masterpiece. Heavy iris blended with dark vanillas for a compelling intimate trail."
+  },
+  {
+    "id": 48,
+    "brand": "Yves Saint Laurent",
+    "name": "La Nuit de L'Homme (Eau de Toilette)",
+    "volume": "100ml",
+    "gender": "Men",
+    "image": "BRANDED PERFUME_page-0048.jpg",
+    "notes": "Cardamom, Virginia Cedar, Lavender, Vetiver, Caraway",
+    "description": "The legendary standard for date-night perfumery. Built completely on a dark, seductive explosion of fresh-crushed spice and clean woods."
+  },
+  {
+    "id": 49,
+    "brand": "Giorgio Armani",
+    "name": "Sì Passione Intense",
+    "volume": "100ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0049.jpg",
+    "notes": "Blackcurrant Nectar, Jasmine Absolute, Patchouli, Vanilla, White Musk",
+    "description": "An incredibly vibrant, intense red statement. Captures true floral passion using heavy blackcurrant and rich jasmine absolute."
+  },
+  {
+    "id": 50,
+    "brand": "Giorgio Armani",
+    "name": "My Way (Eau de Parfum)",
+    "volume": "90ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0050.jpg",
+    "notes": "Orange Blossom, Tuberose, Jasmine, Madagascar Vanilla, Cedarwood",
+    "description": "A bright, luminous white floral bouquet sourced from around the globe. Elegantly clean, sweet, and highly radiant."
+  },
+  {
+    "id": 51,
+    "brand": "Giorgio Armani",
+    "name": "My Way Édition Nacre",
+    "volume": "90ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0051.jpg",
+    "notes": "Calabrian Bergamot, Egyptian Orange Blossom, Indian Tuberose, Jasmine, Virginian Cedarwood, White Musk",
+    "description": "A sparkling, pearlescent variation of the classic floral bouquet, leaving an elegant shimmer on the skin and a radiant trail."
+  },
+  {
+    "id": 52,
+    "brand": "Giorgio Armani",
+    "name": "Armani Code Parfum",
+    "volume": "75ml",
+    "gender": "Men",
+    "image": "BRANDED PERFUME_page-0052.jpg",
+    "notes": "Bergamot, Bergamot Leaf, Iris, Clary Sage, Cedarwood, Tonka Bean",
+    "description": "A deeply magnetic, rewritten aromatic signature. Combines a pristine iris heart with a powerful, warm woody-amber base."
+  },
+  {
+    "id": 53,
+    "brand": "Giorgio Armani",
+    "name": "My Way Nectar (Red and Blue Bottle)",
+    "volume": "90ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0053.jpg",
+    "notes": "Pear Accord, Green Mandarin, Orange Blossom, Tuberose, Bourbon Vanilla, White Musk",
+    "description": "A sensual, ultra-fruity interpretation housed in a striking bi-color flacon. Blends juicy pear with creamy, addictive vanilla."
+  },
+  {
+    "id": 54,
+    "brand": "Emporio Armani",
+    "name": "Because It's You",
+    "volume": "100ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0054.jpg",
+    "notes": "Raspberry, Neroli, Rose Absolute, Vanilla, Musk, Amberwood",
+    "description": "An explicitly bold, passionate feminine fragrance. Captures the power of love with ripe, sweet raspberry and sophisticated rose."
+  },
+  {
+    "id": 55,
+    "brand": "Giorgio Armani",
+    "name": "Armani Code (Eau de Toilette)",
+    "volume": "75ml",
+    "gender": "Men",
+    "image": "BRANDED PERFUME_page-0055.jpg",
+    "notes": "Supercitrus Bergamot, Lavender, Cedarwood, Tonka Bean Absolute",
+    "description": "An iconic, woodier and fresher take on masculine sensuality. Smooth lavender pairs with warm, comforting tonka bean."
+  },
+  {
+    "id": 56,
+    "brand": "Emporio Armani",
+    "name": "Stronger With You Tobacco",
+    "volume": "100ml",
+    "gender": "Men",
+    "image": "BRANDED PERFUME_page-0056.jpg",
+    "notes": "Black Pepper, Cinnamon, Tobacco Accord, Honey, Bourbon Vanilla",
+    "description": "A rich, texturized oriental composition. Infuses a smoky, sweet tobacco accord with precious spices and warm vanilla notes."
+  },
+  {
+    "id": 57,
+    "brand": "Emporio Armani",
+    "name": "Stronger With You Amber",
+    "volume": "100ml",
+    "gender": "Unisex",
+    "image": "BRANDED PERFUME_page-0057.jpg",
+    "notes": "Amber Accord, Lavender, Madagascar Vanilla, Spices",
+    "description": "A premium, amber-focused masterpiece. Highly sophisticated and warm, wrapping clean lavender in a deep, glowing resinous blanket."
+  },
+  {
+    "id": 58,
+    "brand": "Armani/Privé",
+    "name": "Magenta Tanzanite",
+    "volume": "100ml",
+    "gender": "Unisex",
+    "image": "BRANDED PERFUME_page-0058.jpg",
+    "notes": "Cardamom, Ginger, Cinnamon, Coffee, Tobacco, Vanilla",
+    "description": "An haute couture interpretation of African warmth. A sharp spice opening gives way to a dark, smoky roasted coffee and tobacco blend."
+  },
+  {
+    "id": 59,
+    "brand": "Giorgio Armani",
+    "name": "My Way Parfum (Blue and Purple Bottle)",
+    "volume": "50ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0059.jpg",
+    "notes": "Bergamot, Orange Blossom, Blue Iris Pallida, Tuberose, Ambrette, Cedarwood, Vanilla",
+    "description": "The most intense, velvety, and powdery iteration of My Way. Focuses on noble blue iris layered over a deep, dark woody base."
+  },
+  {
+    "id": 60,
+    "brand": "Versace",
+    "name": "Bright Crystal (Eau de Parfum)",
+    "volume": "90ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0060.jpg",
+    "notes": "Yuzu, Pomegranate, Peony, Lotus, Magnolia, Raspberry, Amber, Musk",
+    "description": "An amplified, extra-long-lasting version of the iconic floral. Vibrant yuzu and rich pomegranate bleed into a glamorous peony heart."
+  },
+  {
+    "id": 61,
+    "brand": "Versace",
+    "name": "Yellow Diamond (Eau de Toilette)",
+    "volume": "90ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0061.jpg",
+    "notes": "Citron de Diamante, Pear Sorbet, Neroli, Freesia, Orange Blossom, Amber Wood",
+    "description": "A bright, luminous floral fragrance that feels like hot summer sunshine. Clean, transparent, and intensely effervescent."
+  },
+  {
+    "id": 62,
+    "brand": "Versace",
+    "name": "Bright Crystal Absolu (Pour Femme Parfum)",
+    "volume": "90ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0062.jpg",
+    "notes": "Yuzu, Pomegranate, Ice Accord, Peony, Magnolia, Lotus, Amber",
+    "description": "A deeply concentrated, luxurious floral jewel. Intensely fresh, rich, and sparkling with clean, crystal-clear musk tones."
+  },
+  {
+    "id": 63,
+    "brand": "Versace",
+    "name": "Crystal Noir (Eau de Parfum)",
+    "volume": "90ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0063.jpg",
+    "notes": "Ginger, Cardamom, Pepper, Gardenia, Coconut, Sandalwood, Musk",
+    "description": "A sultry, deeply seductive dark masterpiece. Blends hot spices with a rich, creamy coconut milk signature and heavy woods."
+  },
+  {
+    "id": 64,
+    "brand": "Versace",
+    "name": "Eros Parfum",
+    "volume": "100ml",
+    "gender": "Men",
+    "image": "BRANDED PERFUME_page-0064.jpg",
+    "notes": "Mint oil, Candied Apple, Lemon, Geranium, Tonka Bean, Ambermax",
+    "description": "The ultimate, highly concentrated presentation of Eros. A bold, sweet mint and apple opening grounded by deep, imposing ambers."
+  },
+  {
+    "id": 65,
+    "brand": "Versace",
+    "name": "Versace Pour Homme (Eau de Toilette)",
+    "volume": "100ml",
+    "gender": "Men",
+    "image": "BRANDED PERFUME_page-0065.jpg",
+    "notes": "Bergamot, Neroli, Diamante Citron, Bitter Orange Leaves, Geranium, Cedar, Oud",
+    "description": "A clean, Mediterranean professional standard. Highly refreshing, crisp, and carrying an unmatched fresh laundry and sharp citrus trail."
+  },
+  {
+    "id": 66,
+    "brand": "Versace",
+    "name": "Eros Flame",
+    "volume": "100ml",
+    "gender": "Men",
+    "image": "BRANDED PERFUME_page-0066.jpg",
+    "notes": "Chinotto Citrus, Black Pepper, Rosemary, Pepperwood, Texas Cedar, Vanilla",
+    "description": "A fiery, dynamic contrast of cold and hot. Bitter citrus and heavy black pepper crackle beautifully over a sweet vanilla-wood base."
+  },
+  {
+    "id": 67,
+    "brand": "Versace",
+    "name": "Eros (Eau de Toilette)",
+    "volume": "100ml",
+    "gender": "Men",
+    "image": "BRANDED PERFUME_page-0067.jpg",
+    "notes": "Mint Leaves, Italian Lemon Zest, Green Apple, Tonka Bean, Oakmoss",
+    "description": "The legendary clubbing powerhouse. Highly vibrant, sweet, and projecting an intense trail of fresh mint and addictive tonka vanilla."
+  },
+  {
+    "id": 68,
+    "brand": "Gucci",
+    "name": "Gucci Bloom",
+    "volume": "100ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0068.jpg",
+    "notes": "Rangoon Creeper, Tuberose Bud, Jasmine Sambac Absolute",
+    "description": "A pristine white floral bouquet designed to capture a rich, blooming garden. Sophisticated, powdery, and timelessly elegant."
+  },
+  {
+    "id": 69,
+    "brand": "Gucci",
+    "name": "Gucci Bloom Acqua di Fiori",
+    "volume": "100ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0069.jpg",
+    "notes": "Galbanum, Cassis Buds, Tuberose, Jasmine, Musk, Sandalwood",
+    "description": "A fresh, green, and watery variation of Bloom. Mimics morning dew on wild garden leaves, adding a crisp, vitalizing energy."
+  },
+  {
+    "id": 70,
+    "brand": "Gucci",
+    "name": "Gucci Bloom Profumo di Fiori",
+    "volume": "100ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0070.jpg",
+    "notes": "Jasmine Sambac, Ylang-Ylang, Tuberose, Sandalwood, Orris, Benzoin",
+    "description": "A rich, golden-hued floral experience. Embraces the intense, solar warmth of ylang-ylang alongside deep, resinous woods."
+  },
+  {
+    "id": 71,
+    "brand": "Gucci",
+    "name": "Gucci Bloom Intense",
+    "volume": "100ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0071.jpg",
+    "notes": "Ginger, Pear, Mandarin, Orange Blossom, Tuberose, Patchouli, Moss",
+    "description": "A hypnotic, nocturnal take on the classic white floral signature. Darkened by deep, earthy patchouli and sensual night-blooming notes."
+  },
+  {
+    "id": 72,
+    "brand": "Gucci",
+    "name": "Gucci Flora Gorgeous Jasmine",
+    "volume": "100ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0072.jpg",
+    "notes": "Grandiflorum Jasmine, Mandarin Essence, Magnolia Accord, Sandalwood",
+    "description": "A radiant, uplifting floral masterpiece. Crowned by a glowing, cheerful jasmine heart that leaves a clean, comforting skin trail."
+  },
+  {
+    "id": 73,
+    "brand": "Gucci",
+    "name": "Gucci Flora Gorgeous Magnolia",
+    "volume": "100ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0073.jpg",
+    "notes": "Dewberry Accord, Magnolia Essence, Patchouli Essence, Blonde Woods",
+    "description": "An enigmatic, smooth, and deeply velvety composition blending rich purple berries with a striking, lush magnolia bloom."
+  },
+  {
+    "id": 74,
+    "brand": "Gucci",
+    "name": "Gucci Flora Gorgeous Gardenia (Eau de Parfum)",
+    "volume": "100ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0074.jpg",
+    "notes": "Pear Blossom, White Gardenia, Jasmine, Brown Sugar, Patchouli",
+    "description": "A deliciously sweet, joyful signature. Intensely addictive white gardenia flowers paired perfectly with a warm brown sugar base."
+  },
+  {
+    "id": 75,
+    "brand": "Gucci",
+    "name": "Gucci Flora Gorgeous Orchid",
+    "volume": "100ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0075.jpg",
+    "notes": "Vanilla Duo, Vanilla Orchid, Ozonic Accord, Gourmand Accord",
+    "description": "A striking contrast of creamy, rich gourmand vanilla and clean, fresh ozonic air. Modern, airy, and beautifully balanced."
+  },
+  {
+    "id": 76,
+    "brand": "Gucci",
+    "name": "Gucci Flora Gorgeous Gardenia (Eau de Toilette)",
+    "volume": "100ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0076.jpg",
+    "notes": "Red Berries, Pear, White Gardenia, Frangipani, Patchouli",
+    "description": "A lighter, crisper, and more transparent execution of the iconic gardenia. Highly refreshing, bright, and fruity."
+  },
+  {
+    "id": 77,
+    "brand": "Gucci",
+    "name": "Gucci Flora Gorgeous Gardenia (Refillable Spray)",
+    "volume": "100ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0077.jpg",
+    "notes": "Pear Blossom, White Gardenia, Red Berries, Brown Sugar, Patchouli",
+    "description": "The premium, eco-luxury presentation of the classic EDP in a sleek, rechargeable flacon. Sweet, floral, and sustainable."
+  },
+  {
+    "id": 78,
+    "brand": "Gucci",
+    "name": "Gucci Flora Emerald Gardenia",
+    "volume": "100ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0078.jpg",
+    "notes": "Lemon, Pear, Watermelon, Gardenia, Frangipani, Lotus, Musk, Cedar",
+    "description": "A rare, limited-edition collector's item. Offers a refreshing, watery green spin on soft gardenia flowers and sweet summer melon."
+  },
+  {
+    "id": 79,
+    "brand": "Gucci",
+    "name": "Gucci Flora Glamorous Magnolia (Eau de Toilette)",
+    "volume": "100ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0079.jpg",
+    "notes": "Freesia, Green Leaves, Citrus, Magnolia, Peony, Musk, Sandalwood, Mexican Chocolate",
+    "description": "A beautiful, textured floral profile. Blends fresh, bright magnolia petals with an unexpected, soft hint of rich dark chocolate."
+  },
+  {
+    "id": 80,
+    "brand": "Gucci",
+    "name": "Gucci Guilty (Eau de Toilette)",
+    "volume": "90ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0080.jpg",
+    "notes": "Mandarin, Pink Pepper, Peach, Lilac, Geranium, Amber, Patchouli",
+    "description": "A bold, rebellious oriental floral. Combines a distinct, spicy punch of pink pepper with soft peach and warm golden amber."
+  },
+  {
+    "id": 81,
+    "brand": "Gucci",
+    "name": "Gucci Guilty Pour Homme (Eau de Toilette)",
+    "volume": "90ml",
+    "gender": "Men",
+    "image": "BRANDED PERFUME_page-0081.jpg",
+    "notes": "Italian Lemon, French Lavender, Orange Blossom, Patchouli, Cedarwood",
+    "description": "A highly modern, provocative classic. Blends unconventional, clean orange blossom with sharp citrus and deep, commanding woods."
+  },
+  {
+    "id": 82,
+    "brand": "Gucci",
+    "name": "Gucci Flora (Eau de Parfum)",
+    "volume": "75ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0082.jpg",
+    "notes": "Citrus, Peony, Mandarin, Osmahnthus, Rose, Sandalwood, Pink Pepper",
+    "description": "The deep, velvety, vintage floral classic. Highly professional, rich, and leaving a lasting impression of sophisticated roses."
+  },
+  {
+    "id": 83,
+    "brand": "Gucci",
+    "name": "Gucci Guilty Pour Femme (Eau de Parfum)",
+    "volume": "90ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0083.jpg",
+    "notes": "Mandora Citrus, Pink Pepper, Lilac, Violet, Patchouli Oil",
+    "description": "An amplified, rich, and deeply refined statement. Highly texturized lilac flowers layered over a rich, smooth patchouli foundation."
+  },
+  {
+    "id": 84,
+    "brand": "Chanel",
+    "name": "Coco Mademoiselle",
+    "volume": "100ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0084.jpg",
+    "notes": "Orange, Bergamot, Rose, Jasmine, Patchouli, Vetiver, White Musk",
+    "description": "An undisputed masterpiece of luxury modern perfumery. Opens with crisp, sparkling citrus that settles into a rich, sophisticated patchouli."
+  },
+  {
+    "id": 85,
+    "brand": "Chanel",
+    "name": "Coco Mademoiselle Intense",
+    "volume": "100ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0085.jpg",
+    "notes": "Sicilian Orange, Calabrian Bergamot, Rose, Jasmine, Extreme Patchouli, Amber, Tonka Bean",
+    "description": "An opulent, deeper variation of the classic identity. Shines a heavy spotlight on a massive dose of warm patchouli and deep amber resins."
+  },
+  {
+    "id": 86,
+    "brand": "Chanel",
+    "name": "N°5 (Eau de Parfum)",
+    "volume": "100ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0086.jpg",
+    "notes": "Aldehydes, Ylang-Ylang, Neroli, May Rose, Jasmine, Sandalwood, Bourbon Vanilla",
+    "description": "The most legendary fragrance in history. A timeless, ultra-powdery masterpiece driven by clean, sparkling aldehydes and rich abstract florals."
+  },
+  {
+    "id": 87,
+    "brand": "Chanel",
+    "name": "Allure Homme Sport Cologne",
+    "volume": "100ml",
+    "gender": "Men",
+    "image": "BRANDED PERFUME_page-0087.jpg",
+    "notes": "Mandarin, Lemon, Grapefruit, Spicy Resin, Cedarwood, White Musk",
+    "description": "A vitalizing, hyper-fresh blast of solar energy. Smells like sharp, crisp, freezing-cold citrus over clean, athletic white musk."
+  },
+  {
+    "id": 88,
+    "brand": "Chanel",
+    "name": "Coco Noir",
+    "volume": "100ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0088.jpg",
+    "notes": "Grapefruit, Bergamot, Rose, Geranium Leaf, Patchouli, Tonka Bean, Frankincense",
+    "description": "A baroque, magnetic night scent. A dark, sophisticated patchouli base wrapped elegantly in a blanket of warm, smoky frankincense resin."
+  },
+  {
+    "id": 89,
+    "brand": "Chanel",
+    "name": "Allure Homme Édition Blanche",
+    "volume": "100ml",
+    "gender": "Men",
+    "image": "BRANDED PERFUME_page-0089.jpg",
+    "notes": "Lemon, Bergamot, New Caledonian Sandalwood, Haitian Vetiver, Vanilla",
+    "description": "A premium, avant-garde architectural scent. Masterfully mimics a high-end lemon meringue tart using smooth creamy vanilla and heavy sandalwood."
+  },
+  {
+    "id": 90,
+    "brand": "Chanel",
+    "name": "Allure Homme Sport (Eau de Toilette)",
+    "volume": "100ml",
+    "gender": "Men",
+    "image": "BRANDED PERFUME_page-0090.jpg",
+    "notes": "Mandarin, Mint, Cypress, Clary Sage, Black Pepper, Cedar, Tonka Bean",
+    "description": "The ultimate standard for a fresh, high-end athletic profile. Crisp ocean breezes layered smoothly with warm, addictive sweet spices."
+  },
+  {
+    "id": 91,
+    "brand": "Chanel",
+    "name": "Chance Eau Tendre (Eau de Parfum)",
+    "volume": "100ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0091.jpg",
+    "notes": "Quince, Grapefruit, Rose Essence, Jasmine Absolute, White Musk",
+    "description": "A intensely poetic, soft, and radiant composition. A luscious fruit-forward opening settling into a clean, luxury fabric-softener trail."
+  },
+  {
+    "id": 92,
+    "brand": "Chanel",
+    "name": "Bleu de Chanel (Eau de Toilette)",
+    "volume": "100ml",
+    "gender": "Men",
+    "image": "BRANDED PERFUME_page-0092.jpg",
+    "notes": "Grapefruit, Mint, Pink Pepper, Ginger, Nutmeg, Jasmine, Incense, Cedar",
+    "description": "The pioneer of modern 'blue' fragrances. Highly professional, fresh, and buzzing with crisp grapefruit and smoky incense energy."
+  },
+  {
+    "id": 93,
+    "brand": "Chanel",
+    "name": "Bleu de Chanel Parfum",
+    "volume": "100ml",
+    "gender": "Men",
+    "image": "BRANDED PERFUME_page-0093.jpg",
+    "notes": "Lemon Zest, Bergamot, Mint, Lavender, New Caledonian Sandalwood, Amberwood",
+    "description": "The richest, most majestic concentration of Bleu. Swaps out sharp spices for a smooth, deep, and creamy luxury sandalwood block."
+  },
+  {
+    "id": 94,
+    "brand": "Chanel",
+    "name": "Bleu de Chanel (Eau de Parfum)",
+    "volume": "100ml",
+    "gender": "Men",
+    "image": "BRANDED PERFUME_page-0094.jpg",
+    "notes": "Grapefruit, Mint, Pink Pepper, Ginger, Amber, Cedarwood, Labdanum",
+    "description": "The perfectly balanced version of the legendary lineup. Richer, rounder, and injecting warm, golden amber resins into clean woods."
+  },
+  {
+    "id": 95,
+    "brand": "Narciso Rodriguez",
+    "name": "For Her (Eau de Parfum)",
+    "volume": "100ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0095.jpg",
+    "notes": "Rose, Peach Pulp, Rare Musk, Amber, Patchouli, Sandalwood",
+    "description": "An intimate, deeply sensual statement. A velvety soft pink rose and sweet peach pulp layered beautifully over an iconic musk core."
+  },
+  {
+    "id": 96,
+    "brand": "Rabanne",
+    "name": "Phantom (Eau de Toilette)",
+    "volume": "100ml",
+    "gender": "Men",
+    "image": "BRANDED PERFUME_page-0096.jpg",
+    "notes": "Rhubarb, Lavender, Lemon Zest, Apple, Patchouli, Vanilla, Vetiver",
+    "description": "A futuristic, tech-driven aromatic cocktail. Features an unusual, sweet, and metallic clash of green rhubarb, clean lavender, and hot vanilla."
+  },
+  {
+    "id": 97,
+    "brand": "Marc Jacobs",
+    "name": "Decadence",
+    "volume": "100ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0097.jpg",
+    "notes": "Italian Plum, Saffron, Iris, Bulgarian Rose, Jasmine Sambac, Liquid Amber",
+    "description": "An opulent, heavy luxury statement. A rich, jammy dark plum opening layered with warm saffron spice and deep, dripping golden resins."
+  },
+  {
+    "id": 98,
+    "brand": "Marc Jacobs",
+    "name": "Decadence Blue and Pink Purse Edition",
+    "volume": "100ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0098.jpg",
+    "notes": "Plum, Iris, Saffron, Rose, Orris, Amber, Papyrus Wood",
+    "description": "A highly collectible, limited-edition presentation of the iconic fragrance. Delivers a sophisticated, woody-floral trail with dark fruit warmth."
+  },
+  {
+    "id": 99,
+    "brand": "Marc Jacobs",
+    "name": "Daisy Eau So Intense",
+    "volume": "100ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0099.jpg",
+    "notes": "Strawberry, Pear, Honey, Jasmine, Rose, Vanilla, Moss, Benzoin",
+    "description": "A vibrant, extra-rich take on the classic Daisy identity. Drenched in sweet golden honey, ripe strawberries, and warm, soft moss tones."
+  },
+  {
+    "id": 100,
+    "brand": "Marc Jacobs",
+    "name": "Daisy (Eau de Toilette Spray)",
+    "volume": "100ml",
+    "gender": "Women",
+    "image": "BRANDED PERFUME_page-0100.jpg",
+    "notes": "Violet Leaf, Blood Grapefruit, Strawberry, Gardenia, Jasmine, White Woods",
+    "description": "A universally loved, innocent, and bright signature. Smells like crisp green violet leaves, sweet berries, and soft white woods."
+  }
+]

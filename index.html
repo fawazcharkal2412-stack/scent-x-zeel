@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scent X Zeel | Luxury Showcase</title>
+    <meta name="description" content="A premium showcase of 100 exquisite fragrances by Scent X Zeel. Secure WhatsApp ordering.">
+    <meta name="keywords" content="perfumes, luxury, Scent X Zeel, Oudh, cologne, premium scents">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Supabase JS Client -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Brand Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-area" id="logoArea">
+                <img src="logo.jpg" alt="Scent X Zeel Logo" class="brand-logo" id="brandLogo" onerror="this.src='logo.png';">
+                <span class="brand-name">SCENT X ZEEL</span>
+            </div>
+            <div class="header-tagline">Exquisite Fragrance Catalog</div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Scent X Zeel</h1>
+            <p class="hero-subtitle">Experience a curated catalog of 100 masterpieces of fine perfumery. Discover your signature scent and order instantly via WhatsApp.</p>
+        </div>
+    </section>
+
+    <!-- Main Storefront Showcase -->
+    <main class="showcase-container">
+        <!-- Search, Filter & Sort Controls Container -->
+        <div class="control-panel" id="controlPanel">
+            <!-- Smart Search Box -->
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="text" id="smartSearch" placeholder="Search by brand, name, notes, description..." autocomplete="off">
+                <button id="clearSearch" class="clear-btn" aria-label="Clear search" style="display: none;">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <!-- Filters Grid -->
+            <div class="filters-row">
+                <!-- Gender Selection Tabs -->
+                <div class="filter-group">
+                    <label class="filter-label">Gender Classification</label>
+                    <div class="gender-tabs">
+                        <button class="gender-tab active" data-gender="all">All</button>
+                        <button class="gender-tab" data-gender="Men">Men</button>
+                        <button class="gender-tab" data-gender="Women">Women</button>
+                        <button class="gender-tab" data-gender="Unisex">Unisex</button>
+                    </div>
+                </div>
+
+                <!-- Brand Dropdown -->
+                <div class="filter-group select-group">
+                    <label class="filter-label" for="brandSelect">Filter Brand</label>
+                    <div class="custom-select-wrapper">
+                        <select id="brandSelect">
+                            <option value="all">All Brands</option>
+                        </select>
+                        <i class="fa-solid fa-chevron-down select-arrow"></i>
+                    </div>
+                </div>
+
+                <!-- Sorting Dropdown -->
+                <div class="filter-group select-group">
+                    <label class="filter-label" for="sortBy">Sort By</label>
+                    <div class="custom-select-wrapper">
+                        <select id="sortBy">
+                            <option value="default">Default Order</option>
+                            <option value="name-asc">Name (A-Z)</option>
+                            <option value="name-desc">Name (Z-A)</option>
+                            <option value="brand-asc">Brand (A-Z)</option>
+                        </select>
+                        <i class="fa-solid fa-chevron-down select-arrow"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats & Reset Section -->
+            <div class="control-footer">
+                <div class="results-count" id="resultsCount">Loading catalog...</div>
+                <button id="resetFilters" class="reset-link-btn" style="display: none;">
+                    <i class="fa-solid fa-rotate-left"></i> Reset Filters
+                </button>
+            </div>
+        </div>
+
+        <!-- Catalogue Cards Grid -->
+        <section class="perfumes-grid" id="perfumesGrid" aria-label="Catalog Grid">
+            <div class="skeleton-card"></div>
+            <div class="skeleton-card"></div>
+            <div class="skeleton-card"></div>
+            <div class="skeleton-card"></div>
+        </section>
+    </main>
+
+    <!-- Luxury Product Detail Modal -->
+    <div class="modal" id="perfumeModal" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div class="modal-container">
+            <button class="modal-close" id="modalClose" aria-label="Close details">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="modal-body">
+                <div class="modal-image-wrapper">
+                    <img src="" alt="Perfume Showcase" id="modalImage" class="modal-image">
+                </div>
+                <div class="modal-info-wrapper">
+                    <div class="modal-header-meta">
+                        <span id="modalBrand" class="modal-brand"></span>
+                        <span id="modalGender" class="modal-gender-badge"></span>
+                    </div>
+                    <h2 id="modalName" class="modal-title"></h2>
+                    <div id="modalVolume" class="modal-volume"></div>
+
+                    <div class="modal-divider"></div>
+
+                    <div class="modal-section">
+                        <h3><i class="fa-solid fa-wind note-icon"></i> Fragrance Profile Notes</h3>
+                        <div class="notes-breakdown">
+                            <p><strong>Top Notes:</strong> <span id="modalTopNotes"></span></p>
+                            <p><strong>Heart Notes:</strong> <span id="modalHeartNotes"></span></p>
+                            <p><strong>Base Notes:</strong> <span id="modalBaseNotes"></span></p>
+                        </div>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3><i class="fa-solid fa-feather-pointed note-icon"></i> Olfactory Description</h3>
+                        <p id="modalDescription" class="modal-desc-text"></p>
+                    </div>
+
+                    <div class="modal-actions">
+                        <a href="" id="modalWhatsappBtn" target="_blank" rel="noopener noreferrer" class="whatsapp-btn modal-wa-action">
+                            <i class="fa-brands fa-whatsapp"></i> Order via WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Admin Suite Sidebar Drawer -->
+    <aside class="admin-sidebar" id="adminSidebar" aria-hidden="true">
+        <div class="admin-sidebar-header">
+            <h2><i class="fa-solid fa-user-shield"></i> Zeel Control Panel</h2>
+            <button class="admin-close-btn" id="adminSidebarClose" aria-label="Close Panel">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+
+        <div class="admin-sidebar-body">
+            <!-- Part 1: Layout Adjusters -->
+            <section class="admin-section">
+                <h3>Storefront Layout Adjusters</h3>
+                <div class="adjuster-switch-matrix">
+                    <div class="switch-row">
+                        <span class="switch-label">Full Width Order Buttons</span>
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="toggleFullWidthBtn">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                    <div class="switch-row">
+                        <span class="switch-label">Compact Grid Cards</span>
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="toggleCompactCards">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                    <div class="switch-row">
+                        <span class="switch-label">Conceal Gender Badges</span>
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="toggleHideBadges">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Part 2: Add / Edit Product Form -->
+            <section class="admin-section">
+                <h3 id="formTitle">Add New Product</h3>
+                <form id="adminProductForm" class="admin-form">
+                    <input type="hidden" id="adminEditId" value="">
+
+                    <div class="form-row">
+                        <label for="adminBrand">Brand Name*</label>
+                        <input type="text" id="adminBrand" required placeholder="e.g. Creed">
+                    </div>
+
+                    <div class="form-row">
+                        <label for="adminName">Perfume Name*</label>
+                        <input type="text" id="adminName" required placeholder="e.g. Aventus">
+                    </div>
+
+                    <div class="form-row-group">
+                        <div class="form-row">
+                            <label for="adminVolume">Volume (ml)*</label>
+                            <input type="text" id="adminVolume" required placeholder="e.g. 100ml">
+                        </div>
+                        <div class="form-row">
+                            <label for="adminGender">Gender Target*</label>
+                            <select id="adminGender" required>
+                                <option value="Men">Men</option>
+                                <option value="Women">Women</option>
+                                <option value="Unisex">Unisex</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="adminTopNotes">Top Notes*</label>
+                        <input type="text" id="adminTopNotes" required placeholder="e.g. Pineapple, Bergamot">
+                    </div>
+
+                    <div class="form-row">
+                        <label for="adminHeartNotes">Heart / Middle Notes*</label>
+                        <input type="text" id="adminHeartNotes" required placeholder="e.g. Birch Wood, Jasmine">
+                    </div>
+
+                    <div class="form-row">
+                        <label for="adminBaseNotes">Base Notes*</label>
+                        <input type="text" id="adminBaseNotes" required placeholder="e.g. Musk, Oakmoss, Ambergris">
+                    </div>
+
+                    <div class="form-row">
+                        <label for="adminDescription">Description Narrative*</label>
+                        <textarea id="adminDescription" required rows="3" placeholder="Explain the olfactory story..."></textarea>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="adminImageFile">Product Image Asset</label>
+                        <input type="file" id="adminImageFile" accept="image/*">
+                        <span class="file-note">Canvas pipeline compresses &amp; saves image to cloud database</span>
+                        <div id="imagePreviewContainer" class="image-preview-container" style="display: none;">
+                            <img id="imagePreview" src="" alt="Preview">
+                        </div>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" id="submitFormBtn" class="admin-submit-btn">
+                            <i class="fa-solid fa-cloud-arrow-up"></i> Save to Cloud
+                        </button>
+                        <button type="button" id="cancelEditBtn" class="admin-cancel-btn" style="display: none;">Cancel Edit</button>
+                    </div>
+                </form>
+            </section>
+
+            <!-- Part 3: Dynamic Item Manager List -->
+            <section class="admin-section">
+                <h3>Storefront Catalog Items</h3>
+                <div class="admin-items-list" id="adminItemsList">
+                    <!-- Loaded dynamically via Javascript -->
+                </div>
+            </section>
+        </div>
+    </aside>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="logo.jpg" alt="Scent X Zeel Logo" class="footer-brand-logo" onerror="this.src='logo.png';">
+                <span class="footer-brand-name">SCENT X ZEEL</span>
+            </div>
+            <p class="footer-desc">Curators of premium, authentic, and legendary scents from across the globe. Powered by secure WhatsApp ordering.</p>
+            <div class="footer-divider"></div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Scent X Zeel. All rights reserved.</p>
+                <p class="footer-note">Secure cloud-powered catalog. Direct checkout via WhatsApp.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
