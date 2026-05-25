@@ -8,7 +8,8 @@
 // ==========================================================================
 const supabaseUrl = window.ENV_SUPABASE_URL;
 const supabaseKey = window.ENV_SUPABASE_ANON_KEY;
-const supabase = window.supabase.createClient(supabaseUrl, supabaseKey);
+// FIXED: Changed window.supabase.createClient to supabase.createClient
+const supabase = supabase.createClient(supabaseUrl, supabaseKey);
 
 // ==========================================================================
 // 2. WHATSAPP CHECKOUT NUMBER
@@ -18,7 +19,7 @@ const WHATSAPP_PHONE = "919619688469";
 // ==========================================================================
 // 3. APPLICATION STATE
 // ==========================================================================
-let allPerfumes = [];        // Live cloud data snapshot
+let allPerfumes = []; // Live cloud data snapshot
 let distinctBrands = [];
 let currentGender = 'all';
 let currentBrand = 'all';

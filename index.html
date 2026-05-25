@@ -9,17 +9,14 @@
         content="A premium showcase of 100 exquisite fragrances by Scent X Zeel. Secure WhatsApp ordering.">
     <meta name="keywords" content="perfumes, luxury, Scent X Zeel, Oudh, cologne, premium scents">
 
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
         rel="stylesheet">
 
-    <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <!-- Supabase JS Client -->
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 
     <link rel="stylesheet" href="styles.css">
@@ -31,7 +28,6 @@
 </head>
 
 <body>
-    <!-- Brand Header -->
     <header class="header">
         <div class="header-container">
             <div class="logo-area" id="logoArea">
@@ -43,7 +39,6 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
             <h1 class="hero-title">Scent X Zeel</h1>
@@ -52,11 +47,8 @@
         </div>
     </section>
 
-    <!-- Main Storefront Showcase -->
     <main class="showcase-container">
-        <!-- Search, Filter & Sort Controls Container -->
         <div class="control-panel" id="controlPanel">
-            <!-- Smart Search Box -->
             <div class="search-box">
                 <i class="fa-solid fa-magnifying-glass search-icon"></i>
                 <input type="text" id="smartSearch" placeholder="Search by brand, name, notes, description..."
@@ -66,9 +58,7 @@
                 </button>
             </div>
 
-            <!-- Filters Grid -->
             <div class="filters-row">
-                <!-- Gender Selection Tabs -->
                 <div class="filter-group">
                     <label class="filter-label">Gender Classification</label>
                     <div class="gender-tabs">
@@ -79,7 +69,6 @@
                     </div>
                 </div>
 
-                <!-- Brand Dropdown -->
                 <div class="filter-group select-group">
                     <label class="filter-label" for="brandSelect">Filter Brand</label>
                     <div class="custom-select-wrapper">
@@ -90,7 +79,6 @@
                     </div>
                 </div>
 
-                <!-- Sorting Dropdown -->
                 <div class="filter-group select-group">
                     <label class="filter-label" for="sortBy">Sort By</label>
                     <div class="custom-select-wrapper">
@@ -105,7 +93,6 @@
                 </div>
             </div>
 
-            <!-- Stats & Reset Section -->
             <div class="control-footer">
                 <div class="results-count" id="resultsCount">Loading catalog...</div>
                 <button id="resetFilters" class="reset-link-btn" style="display: none;">
@@ -114,7 +101,6 @@
             </div>
         </div>
 
-        <!-- Catalogue Cards Grid -->
         <section class="perfumes-grid" id="perfumesGrid" aria-label="Catalog Grid">
             <div class="skeleton-card"></div>
             <div class="skeleton-card"></div>
@@ -123,7 +109,6 @@
         </section>
     </main>
 
-    <!-- Luxury Product Detail Modal -->
     <div class="modal" id="perfumeModal" role="dialog" aria-modal="true" aria-hidden="true">
         <div class="modal-overlay" id="modalOverlay"></div>
         <div class="modal-container">
@@ -170,7 +155,6 @@
         </div>
     </div>
 
-    <!-- Admin Suite Sidebar Drawer -->
     <aside class="admin-sidebar" id="adminSidebar" aria-hidden="true">
         <div class="admin-sidebar-header">
             <h2><i class="fa-solid fa-user-shield"></i> Zeel Control Panel</h2>
@@ -180,7 +164,6 @@
         </div>
 
         <div class="admin-sidebar-body">
-            <!-- Part 1: Layout Adjusters -->
             <section class="admin-section">
                 <h3>Storefront Layout Adjusters</h3>
                 <div class="adjuster-switch-matrix">
@@ -208,7 +191,6 @@
                 </div>
             </section>
 
-            <!-- Part 2: Add / Edit Product Form -->
             <section class="admin-section">
                 <h3 id="formTitle">Add New Product</h3>
                 <form id="adminProductForm" class="admin-form">
@@ -279,22 +261,18 @@
                 </form>
             </section>
 
-            <!-- Part 3: Dynamic Item Manager List -->
             <section class="admin-section">
                 <h3>Storefront Catalog Items</h3>
                 <div class="admin-items-list" id="adminItemsList">
-                    <!-- Loaded dynamically via Javascript -->
-                </div>
+                    </div>
             </section>
         </div>
     </aside>
 
-    <!-- Back to Top -->
     <button class="back-to-top" id="backToTop" aria-label="Scroll to top">
         <i class="fa-solid fa-arrow-up"></i>
     </button>
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-logo">
