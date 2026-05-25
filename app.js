@@ -8,8 +8,9 @@
 // ==========================================================================
 const supabaseUrl = window.ENV_SUPABASE_URL;
 const supabaseKey = window.ENV_SUPABASE_ANON_KEY;
-// FIXED: Changed window.supabase.createClient to supabase.createClient
-const supabase = supabase.createClient(supabaseUrl, supabaseKey);
+
+// FIXED: Renamed local instance to supabaseClient to prevent collision with global script
+const supabaseClient = window.supabase.createClient(supabaseUrl, supabaseKey);
 
 // ==========================================================================
 // 2. WHATSAPP CHECKOUT NUMBER
@@ -99,7 +100,8 @@ async function loadCloudCatalog() {
         <div class="skeleton-card"></div>
     `;
 
-    const { data, error } = await supabase
+    // FIXED: Swapped to supabaseClient
+    const { data, error } = await supabaseClient
         .from('perfumes')
         .select('*')
         .order('id', { ascending: true });
@@ -164,8 +166,8 @@ logoArea.addEventListener('click', () => {
 });
 
 async function verifyAdminPassword(enteredValue) {
-    // Query admin_settings table for the stored password value
-    const { data, error } = await supabase
+    // FIXED: Swapped to supabaseClient
+    const { data, error } = await supabaseClient
         .from('admin_settings')
         .select('value')
         .eq('key', 'admin_password')
@@ -436,7 +438,8 @@ adminProductForm.addEventListener('submit', async (e) => {
         const existing = allPerfumes.find(p => String(p.id) === String(editId));
         const image_url = adminTempImageBase64 !== '' ? adminTempImageBase64 : (existing ? (existing.image_url || existing.image || '') : '');
 
-        const { error } = await supabase
+        // FIXED: Swapped to supabaseClient
+        const { error } = await supabaseClient
             .from('perfumes')
             .update({ brand, name, volume, gender, notes, description: desc, image_url })
             .eq('id', editId);
@@ -451,7 +454,8 @@ adminProductForm.addEventListener('submit', async (e) => {
         // INSERT new row
         const image_url = adminTempImageBase64 !== '' ? adminTempImageBase64 : '';
 
-        const { error } = await supabase
+        // FIXED: Swapped to supabaseClient
+        const { error } = await supabaseClient
             .from('perfumes')
             .insert([{ brand, name, volume, gender, notes, description: desc, image_url }]);
 
@@ -475,7 +479,8 @@ adminProductForm.addEventListener('submit', async (e) => {
 async function deleteProduct(id) {
     if (!confirm("Are you sure you want to permanently delete this product from the cloud catalog?")) return;
 
-    const { error } = await supabase
+    // FIXED: Swapped to supabaseClient
+    const { error } = await supabaseClient
         .from('perfumes')
         .delete()
         .eq('id', id);
