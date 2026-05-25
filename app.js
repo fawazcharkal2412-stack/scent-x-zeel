@@ -357,12 +357,26 @@ function renderGrid(perfumes) {
 
 // Resolve product image — supports Base64 stored in cloud or local catalogue path
 function resolveImageSrc(p) {
-    const imgField = p.image_url || p.image || '';
-    if (!imgField) return 'logo.jpg';
+    let imgField = p.image_url || p.image || '';
+    imgField = imgField.trim();
+
+    // 1. Fallback: If image field is completely missing, auto-generate path using database ID
+    if (!imgField || imgField === '') {
+        if (p.id) {
+            let formattedId = String(p.id).padStart(4, '0');
+            return `CATALOGUE/BRANDED PERFUME _page-${formattedId}.jpg`;
+        }
+        return 'logo.jpg';
+    }
+
+    // 2. Admin Panel: Handle Base64 image strings directly
     if (imgField.startsWith('data:image/')) return imgField;
 
-    // Correct known filename spacing mismatch in local CATALOGUE folder
-    let corrected = imgField.trim().replace("BRANDED PERFUME_", "BRANDED PERFUME _");
+    // 3. String Normalization: Fix spacing and hyphens to match the CATALOGUE folder layout
+    let corrected = imgField
+        .replace("BRANDED PERFUME_", "BRANDED PERFUME _")
+        .replace("page_", "page-");
+
     return `CATALOGUE/${corrected}`;
 }
 
