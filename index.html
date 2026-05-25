@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scent X Zeel | Luxury Showcase</title>
-    <meta name="description" content="A premium showcase of 100 exquisite fragrances by Scent X Zeel. Secure WhatsApp ordering.">
+    <meta name="description"
+        content="A premium showcase of 100 exquisite fragrances by Scent X Zeel. Secure WhatsApp ordering.">
     <meta name="keywords" content="perfumes, luxury, Scent X Zeel, Oudh, cologne, premium scents">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
 
     <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -19,13 +23,20 @@
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 
     <link rel="stylesheet" href="styles.css">
+
+    <script>
+        window.ENV_SUPABASE_URL = "https://hzdyrjkqnjybtjswfqsa.supabase.co";
+        window.ENV_SUPABASE_ANON_KEY = "sb_publishable_RaMf8821wnbmNlt_ckvAyw_hBSBKzF8";
+    </script>
 </head>
+
 <body>
     <!-- Brand Header -->
     <header class="header">
         <div class="header-container">
             <div class="logo-area" id="logoArea">
-                <img src="logo.jpg" alt="Scent X Zeel Logo" class="brand-logo" id="brandLogo" onerror="this.src='logo.png';">
+                <img src="logo.jpg" alt="Scent X Zeel Logo" class="brand-logo" id="brandLogo"
+                    onerror="this.src='logo.png';">
                 <span class="brand-name">SCENT X ZEEL</span>
             </div>
             <div class="header-tagline">Exquisite Fragrance Catalog</div>
@@ -36,7 +47,8 @@
     <section class="hero">
         <div class="hero-content">
             <h1 class="hero-title">Scent X Zeel</h1>
-            <p class="hero-subtitle">Experience a curated catalog of 100 masterpieces of fine perfumery. Discover your signature scent and order instantly via WhatsApp.</p>
+            <p class="hero-subtitle">Experience a curated catalog of 100 masterpieces of fine perfumery. Discover your
+                signature scent and order instantly via WhatsApp.</p>
         </div>
     </section>
 
@@ -47,7 +59,8 @@
             <!-- Smart Search Box -->
             <div class="search-box">
                 <i class="fa-solid fa-magnifying-glass search-icon"></i>
-                <input type="text" id="smartSearch" placeholder="Search by brand, name, notes, description..." autocomplete="off">
+                <input type="text" id="smartSearch" placeholder="Search by brand, name, notes, description..."
+                    autocomplete="off">
                 <button id="clearSearch" class="clear-btn" aria-label="Clear search" style="display: none;">
                     <i class="fa-solid fa-xmark"></i>
                 </button>
@@ -147,7 +160,8 @@
                     </div>
 
                     <div class="modal-actions">
-                        <a href="" id="modalWhatsappBtn" target="_blank" rel="noopener noreferrer" class="whatsapp-btn modal-wa-action">
+                        <a href="" id="modalWhatsappBtn" target="_blank" rel="noopener noreferrer"
+                            class="whatsapp-btn modal-wa-action">
                             <i class="fa-brands fa-whatsapp"></i> Order via WhatsApp
                         </a>
                     </div>
@@ -242,7 +256,8 @@
 
                     <div class="form-row">
                         <label for="adminDescription">Description Narrative*</label>
-                        <textarea id="adminDescription" required rows="3" placeholder="Explain the olfactory story..."></textarea>
+                        <textarea id="adminDescription" required rows="3"
+                            placeholder="Explain the olfactory story..."></textarea>
                     </div>
 
                     <div class="form-row">
@@ -258,7 +273,8 @@
                         <button type="submit" id="submitFormBtn" class="admin-submit-btn">
                             <i class="fa-solid fa-cloud-arrow-up"></i> Save to Cloud
                         </button>
-                        <button type="button" id="cancelEditBtn" class="admin-cancel-btn" style="display: none;">Cancel Edit</button>
+                        <button type="button" id="cancelEditBtn" class="admin-cancel-btn" style="display: none;">Cancel
+                            Edit</button>
                     </div>
                 </form>
             </section>
@@ -285,7 +301,8 @@
                 <img src="logo.jpg" alt="Scent X Zeel Logo" class="footer-brand-logo" onerror="this.src='logo.png';">
                 <span class="footer-brand-name">SCENT X ZEEL</span>
             </div>
-            <p class="footer-desc">Curators of premium, authentic, and legendary scents from across the globe. Powered by secure WhatsApp ordering.</p>
+            <p class="footer-desc">Curators of premium, authentic, and legendary scents from across the globe. Powered
+                by secure WhatsApp ordering.</p>
             <div class="footer-divider"></div>
             <div class="footer-bottom">
                 <p>&copy; 2026 Scent X Zeel. All rights reserved.</p>
@@ -296,4 +313,5 @@
 
     <script src="app.js"></script>
 </body>
+
 </html>
